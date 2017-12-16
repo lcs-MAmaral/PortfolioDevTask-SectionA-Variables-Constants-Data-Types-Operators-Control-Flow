@@ -17,7 +17,9 @@
  
  */
 // Answer question 2 below
-
+let albumName = "UNKULELE HERO"
+var copiesSold = 7000
+var suggestedSellingPrice = 11.50
 /*:
  ## Now share your understanding
  
