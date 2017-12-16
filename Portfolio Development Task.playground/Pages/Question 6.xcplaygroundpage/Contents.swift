@@ -18,17 +18,18 @@
  */
 // Answer question 6 below
 let targetDistance : Double = 10
-var currentDistance : Double = 10
-print (currentDistance/targetDistance)
-if currentDistance/targetDistance < 0.10 {
+var currentDistance : Double = 5
+var percentRun : Double = (currentDistance/targetDistance)
+
+if percentRun < 0.10 {
     print("Great Start, Keep it up!")
-} else if currentDistance/targetDistance >= 0.50 && currentDistance/targetDistance >= 0.45 {
+} else if percentRun >= 0.50 && percentRun <= 0.45 {
     print("You're almost at halfway!")
-} else if currentDistance/targetDistance == 0.50 {
+} else if percentRun == 0.50 {
     print("Halfway there!")
-} else if currentDistance/targetDistance >= 0.90 && currentDistance/targetDistance < 1 {
+} else if percentRun >= 0.90 && percentRun < 1 {
     print("Nearly done!")
-} else if currentDistance/targetDistance == 1.0 {
+} else if percentRun == 1.0 {
     print("GREAT JOB! You're finished the run.")
 }
 
