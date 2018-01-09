@@ -23,7 +23,7 @@ var percentRun : Double = (currentDistance/targetDistance)
 
 if percentRun < 0.10 {
     print("Great Start, Keep it up!")
-} else if percentRun >= 0.50 && percentRun <= 0.45 {
+} else if percentRun <= 0.50 && percentRun >= 0.45 {
     print("You're almost at halfway!")
 } else if percentRun == 0.50 {
     print("Halfway there!")

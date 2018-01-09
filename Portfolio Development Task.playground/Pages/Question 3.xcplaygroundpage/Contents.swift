@@ -20,9 +20,9 @@
  */
 // Answer question 3 below
 var valueOfDimes = 0.10
-var dimeCount = 15
+var dimeCount = 1511
 var valueOfQuarters = 0.25
-var quarterCount = 9
+var quarterCount = 100
 var totalValueOfCoins = (valueOfDimes * Double(dimeCount)) + (valueOfQuarters * Double(quarterCount))
 /*:
  ## Now share your understanding
